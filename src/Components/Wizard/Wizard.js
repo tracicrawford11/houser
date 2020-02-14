@@ -3,8 +3,8 @@ import axios from 'axios'
 import {Link} from 'react-router-dom'
 
 class Wizard extends Component {
-    constructor () {
-        super()
+    constructor (props) {
+        super(props)
         this.state = {
             name: '',
             address: '',

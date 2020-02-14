@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom'
 import Header from '../../Components/Header/Header'
 
 class Dashboard extends Component {
-    constructor () {
-        super()
+    constructor (props) {
+        super(props)
         this.state = {
             name: '',
             address: '',
